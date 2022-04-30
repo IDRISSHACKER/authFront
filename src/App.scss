@@ -1,0 +1,11 @@
+@import-normalize;
+@import "./sass/_utils";
+@import "./sass/_navbar";
+@import "./sass/_button";
+@import "./sass/_form";
+@import "./sass/_typo";
+@import "./sass/_alert";
+
+.App {
+  text-align: center;
+}

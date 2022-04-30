@@ -1,0 +1,29 @@
+.alert{
+    display: block;
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    width: 300px;
+    max-width: 500px;
+    border: solid 1px #ddd;
+    color: #2A2A2A;
+    z-index: 20;
+    padding: 1rem 2rem;
+    display: none;
+}
+
+.alert-danger{
+    color: $danger;
+    border-color: $danger;
+    border-left: solid 3px $danger;
+}
+
+.alert-success{
+    color: $sucess;
+    border-color: $sucess;
+    border-left: solid 3px $sucess;
+}
+
+.alert-visible{
+    display: block;
+}

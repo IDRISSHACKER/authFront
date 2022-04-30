@@ -1,0 +1,39 @@
+.navbar{
+    background: #fff;
+    border-bottom: solid 1px rgb(0 0 0/10%);
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        *{
+            text-decoration: none;
+            color: #1D2424;
+            font-weight: 800;
+            font-size: 2rem;
+            line-height: 30px;
+        }
+    }
+
+    .navbar-actions{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li{
+                list-style: none;
+            }
+        }
+    }
+}
